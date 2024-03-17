@@ -1,0 +1,21 @@
+{
+  "websites": {
+    "fanduel": "https://sportsbook.fanduel.com/",
+    "caesars": "https://www.caesars.com/sportsbook-and-casino/co/",
+    "draftkings": "https://sportsbook.draftkings.com/",
+    "betmgm": "https://sports.az.betmgm.com/en/sports"
+  },
+  "scrapers": {
+    "fanduel": "scrapers/fanduelScraper.js",
+    "caesars": "scrapers/caesarsScraper.js",
+    "draftkings": "scrapers/draftkingsScraper.js",
+    "betmgm": "scrapers/betmgmScraper.js"
+  },
+  "models": {
+    "oddsModel": "models/oddsModel.js"
+  },
+  "comparator": "comparator/oddsComparator.js",
+  "utils": {
+    "httpRequest": "utils/httpRequest.js"
+  }
+}
